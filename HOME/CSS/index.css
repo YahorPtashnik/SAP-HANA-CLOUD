@@ -1,0 +1,39 @@
+body {
+    background-color: RGB(45, 45, 45);
+    color: RGB(255, 255, 255);
+}
+
+
+.dheader {
+    font-size: 36px;
+    text-align: center;
+    text-shadow:  
+    1px 1px black,
+    1px -1px black,
+    -1px 1px black,
+    -1px -1px black;
+}
+
+.container{
+    display: inline-grid;
+    grid-gap: 2vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 25px;
+    width: 100%;
+}
+.hw-btn {
+    text-align: center;
+    text-decoration: none;
+    color: white;   
+    font-size: 24px;
+    padding: 10px;
+    background-color: RGB(45, 45, 45);
+    border: 2px solid white;
+    transition: 0.08s;
+}
+.hw-btn:hover {
+    transition: 0.08s;
+    background-color: white;
+    color: RGB(45, 45, 45);
+    cursor: pointer;
+}

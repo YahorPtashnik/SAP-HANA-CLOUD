@@ -1,0 +1,55 @@
+body {
+    background-color: RGB(45, 45, 45);
+    color: RGB(255, 255, 255);
+    text-shadow:  
+    1px 1px black,
+    1px -1px black,
+    -1px 1px black,
+    -1px -1px black;
+}
+
+div {
+    text-align: center;
+    margin: auto;
+}
+
+.dheader {
+    position: fixed;
+    width: 100%;
+    background-color: RGB(45, 45, 45);
+    top: 0;
+    left: 0;
+    text-align: left;
+    padding-top: 0;
+    padding-left: 20px;
+    font-size: 36px;
+    vertical-align: middle;
+    text-shadow:  
+    1px 1px black,
+    1px -1px black,
+    -1px 1px black,
+    -1px -1px black;
+}
+
+.link {
+    font-size: 20px;
+    color: white;
+}
+.link:hover {
+    color: red;
+}
+
+.link-header {
+    display: inline-block;
+    text-align: left;
+    font-size: 24px;
+    color: white;
+}
+.link-header:hover {
+    color: red;
+}
+
+footer {
+    margin-top: 30px;
+    vertical-align: bottom;
+}

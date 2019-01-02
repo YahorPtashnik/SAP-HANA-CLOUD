@@ -1,0 +1,75 @@
+body {
+    background-color: RGB(45, 45, 45);
+    color: RGB(255, 255, 255);
+    text-shadow:  
+    1px 1px black,
+    1px -1px black,
+    -1px 1px black,
+    -1px -1px black;
+}
+
+.dheader {
+    position: fixed;
+    width: 100%;
+    background-color: RGB(45, 45, 45);
+    top: 0;
+    left: 0;
+    text-align: left;
+    padding-top: 0;
+    padding-left: 20px;
+    font-size: 36px;
+    vertical-align: middle;
+    text-shadow:  
+    1px 1px black,
+    1px -1px black,
+    -1px 1px black,
+    -1px -1px black;
+}
+
+.link {
+    font-size: 20px;
+    color: white;
+}
+.link:hover {
+    color: red;
+}
+
+.link-header {
+    display: inline-block;
+    text-align: left;
+    font-size: 24px;
+    color: white;
+}
+.link-header:hover {
+    color: red;
+}
+
+table {
+    margin: auto;
+}
+
+.itemForm {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+label {
+    text-align: right;
+    margin-right: 50px;
+}
+.submit-btn {
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    background-color: RGB(45, 45, 45);
+    border: 2px solid white;
+    color: white;
+    transition: 0.08s;
+}
+.submit-btn:hover{
+    transition: 0.08s;
+    background-color: white;
+    color: RGB(45, 45, 45);
+    cursor: pointer;
+}
