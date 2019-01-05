@@ -24,6 +24,8 @@ body {
 
 .grid-container div {
     display: grid;
+    border: 1px solid red;
+    border-radius: 10px;
     font-size: 40px;
     align-content: center;
     justify-content: center;
