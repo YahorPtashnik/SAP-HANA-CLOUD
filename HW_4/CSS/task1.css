@@ -11,4 +11,10 @@ body {
     1px -1px black,
     -1px 1px black,
     -1px -1px black;
+    font-size: 30px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
 }
