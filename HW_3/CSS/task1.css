@@ -18,12 +18,12 @@ body {
     margin: 1% 1% 0 1%;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
     "item1 item1 item2"
-    "item3 sub-grid-container sub-grid-container"
-    "item3 sub-grid-container sub-grid-container";
+    "item3 item4 item4"
+    "item3 item5 item6";
 }
 
 .grid-container div {
