@@ -11,7 +11,8 @@ if (/[0-9]/.test(username)) {
     }
 }
 else {
-newEl.innerHTML = username;
+
+newEl.innerHTML = username.split("").reverse().join("");
 }
 
 var cont = document.getElementById("container");
