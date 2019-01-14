@@ -194,3 +194,7 @@ console.log(serv.getInfo());
 var uBook = new Ultrabook('Apple', 'iMac 1997', 'Some description');
 uBook.setCost(2000);
 console.log(uBook.getInfo());
+
+var subm = function() {
+    alert("Created\\Changed");
+}
