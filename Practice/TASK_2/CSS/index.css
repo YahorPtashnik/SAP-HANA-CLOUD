@@ -41,6 +41,15 @@ body {
     justify-content: center;
     height: 100px;
 }
+.item:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px white;
+}
+.item .item:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+
 
 .item img {
     width: 80px;
