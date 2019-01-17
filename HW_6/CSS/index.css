@@ -1,0 +1,61 @@
+html,
+body {
+    width: 99%;
+    height: 97%;
+}
+
+body {
+    background-color: RGB(45, 45, 45);
+    color: RGB(255, 255, 255);
+}
+
+.container {
+    display: grid;
+}
+
+table {
+    border: 1px solid white;
+    text-align: center;
+}
+
+table td,
+th {
+    border: 1px solid white;
+}
+
+.btn {
+    background-color: RGB(45, 45, 45);
+    border: 2px solid RGB(255, 254, 254);
+    color: inherit;
+    height: 40px;
+    font-size: 24px;
+    margin: 20px;
+    outline: none;
+}
+.btn:hover {
+    background-color: RGB(255, 254, 254);
+    color: RGB(45, 45, 45);
+    cursor: pointer;
+}
+.table-btn {
+    background-color: RGB(45, 45, 45);
+    border: none;
+    color: inherit;
+    height: 100%;
+    width: 100%;
+    outline: none;
+}
+.table-btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.pp-form {
+    display: grid;
+    justify-items: end;
+    margin: auto; 
+    grid-gap: 30px;
+}
+input {
+    margin-left: 10px;
+}
