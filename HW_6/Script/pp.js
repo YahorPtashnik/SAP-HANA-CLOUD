@@ -56,7 +56,6 @@ retObj = function () {
 }
 if(uri.searchParams.get('rowID')){
     var ob = retObj();
-    var rowID = uri.searchParams.get('rowID') - 1;
     document.getElementById("id").value = uri.searchParams.get('rowID');
     document.getElementById("userId").value = ob.userId;
     document.getElementById("title").value = ob.title;

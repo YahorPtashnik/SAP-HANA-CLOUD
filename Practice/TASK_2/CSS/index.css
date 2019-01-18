@@ -59,6 +59,7 @@ body {
 
 .chat {
     display: block;
+    height: auto;
     padding: 5px;
 }
 
@@ -73,6 +74,7 @@ body {
 
 .answer {
     display: flex;
+    height: auto;
 }
 
 .answer-avatar {
@@ -121,6 +123,7 @@ body {
 
 .message {
     display: flex;
+    height: auto;
 }
 
 .message-text {
