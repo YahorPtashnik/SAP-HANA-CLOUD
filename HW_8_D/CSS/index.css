@@ -1,0 +1,43 @@
+html,
+body {
+    width: 99%;
+    height: 97%;
+}
+
+body {
+    background-color: RGB(45, 45, 45);
+    color: RGB(255, 255, 255);
+}
+
+#container {
+    display: grid;
+}
+.btn-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2px;
+}
+
+button {
+    outline: none;
+    background-color: RGB(45, 45, 45);
+    border: 2px solid RGB(255, 254, 254);
+    color: RGB(255, 254, 254);
+    transition: 0.2s;
+}
+button:hover {
+    cursor: pointer;
+    background-color: RGB(255, 254, 254);
+    color: RGB(45, 45, 45);
+    transition: 0.2s;
+}
+
+table {
+    margin-top: 30px;
+    text-align: center;
+}
+td {
+    border: 1px solid white;
+    padding: 5px;
+}
