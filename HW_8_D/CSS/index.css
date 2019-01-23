@@ -39,5 +39,10 @@ table {
 }
 td {
     border: 1px solid white;
+    border-top: none;
+    padding: 5px;
+}
+th {
+    border: 2px solid white;
     padding: 5px;
 }
