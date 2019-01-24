@@ -7,33 +7,9 @@ sap.ui.require([
 
 	// Attach an anonymous function to the SAPUI5 'init' event
 	sap.ui.getCore().attachInit(function () {
-		var oProductModel = new JSONModel();
-		oProductModel.loadData("./model/Products.json");
-		sap.ui.getCore().setModel(oProductModel, "products");
-
-
-		var oModel = new JSONModel({
-			firstName: "Yahor",
-			lastName: "Ptashnik",
-			enabled: true,
-			address: {
-				street: "50 let Pobedy",
-				city: "Minsk",
-				zip: "11111",
-				country: "Belarus"
-			},
-            "salesToDate": 12345.6789,
-            "priceThreshold": 20,
-			"currencyCode": "EUR"
-		});
-
-		// Assign the model object to the SAPUI5 core
-		sap.ui.getCore().setModel(oModel);
-
 		var oResourceBundle = new ResourceModel({
 			bundleName: "sap.ui.demo.walkthrough.i18n.i18n"
 		});
-
 		sap.ui.getCore().setModel(oResourceBundle, "i18n");
 
 		// Display the XML view called "App"
